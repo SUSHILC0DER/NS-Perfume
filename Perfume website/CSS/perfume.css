@@ -1,0 +1,157 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+header {
+    width: 1920px;
+    height: 140px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+header h1 {
+    font-family: "Poppins", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    /* background-color: green; */
+    padding-top: 30px;
+    text-align: center;
+   
+
+
+}
+
+nav {
+
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+
+}
+
+.navbar li {
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navbar a:hover {
+    border: 1px solid white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.banner{
+    width: 1920px;
+    margin: auto;
+    background-image:url(/banner/perfume.jpg);
+}
+.bannerbox{
+    width: 1920px;
+    height: 1000px;
+    background-color:rgb(0, 0, 0);
+    opacity: .5;
+
+}
+
+.bannerbox h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 400px;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+}
+.product{
+    width: 1920px;
+    height: 500px;
+    /* background-color: pink; */
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.perfume1{
+    width: 450px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0);
+
+}
+.gotobtn{
+    width: 200px;
+    height: 40px;
+    font-size: 25px;
+    text-transform: uppercase;
+    display: block;
+    margin: 60px auto 0px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(0, 0, 0);
+}
+
+.perfume1 img{
+   width: 300px;
+   margin: 40px auto;
+ display: block;
+}
+
+.perfume1 a{
+    text-decoration: none;
+    color: rgb(248, 239, 239);
+    font-size: 20px;
+}
+.perfume1 a:hover{
+    color: rgb(187, 187, 187);
+}
+
+footer{
+    width: 1920px;
+    height: 130px;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+
+.terms{
+
+display: flex;
+margin: auto;
+width: 50%;
+padding-top: 30px;
+
+}
+.terms a{
+    text-decoration: none;
+    font-size:18px;
+    font-family:"Poppins",sans-serif;
+    margin: auto;
+    color: white;
+}
+.copyright{
+    width: 50%;
+   
+    font-family:"Poppins",sans-serif;
+    margin: auto;
+   
+    display: flex;
+    margin-top: 20px;
+}
+.copyright a{
+    text-decoration:none;
+    margin: auto;
+    color: white;
+   
+}
